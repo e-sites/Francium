@@ -39,7 +39,9 @@ public class IOObject {
     /// `File("path: testfile.rb").name #=> testfile`
     public var name: String {
         var expl = url.lastPathComponent.components(separatedBy: ".")
-        expl.removeLast()
+        if expl.count > 1 {
+            expl.removeLast()
+        }
         return expl.joined(separator: ".")
     }
 
