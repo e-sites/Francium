@@ -18,18 +18,25 @@ public class IOObject {
         self.url = URL(fileURLWithPath: path)
     }
 
+    /// The absolute path:
+    /// `File("path: ./").absolutePath #=> /var/folders/6d/FranciumTests-61688042-63CA-4E70-A9A6-31BBBB12FD38/`
     public var absolutePath: String {
         return url.path
     }
 
+    /// Does the entry exist?
     public var isExisting: Bool {
         return FileManager.default.fileExists(atPath: absolutePath)
     }
 
+    /// The base name
+    /// `File("path: /usr/bin/testfile.swift") #=> testfile.swift`
     public var basename: String {
         return url.lastPathComponent
     }
 
+    /// The file (or directory) name without the final extension
+    /// `File("path: testfile.rb").name #=> testfile`
     public var name: String {
         var expl = url.lastPathComponent.components(separatedBy: ".")
         expl.removeLast()
@@ -45,6 +52,9 @@ public class IOObject {
         }
     }
 
+    /// The name of the directory
+    /// `File("path: testfile.rb").dirname #=> /var/folders/6d`
+    /// `Dir("path: ./").dirname #=> /var/folders/6d`
     public var dirName: String {
         var components = url.pathComponents
         if !isDirectory {

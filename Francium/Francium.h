@@ -6,6 +6,8 @@
 //  Copyright © 2018 E-sites. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 //! Project version number for Francium.
 FOUNDATION_EXPORT double FranciumVersionNumber;
 

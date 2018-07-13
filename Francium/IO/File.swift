@@ -9,7 +9,8 @@
 import Foundation
 
 public class File: IOObject, CustomStringConvertible {
-
+    /// The extension name
+    /// `File("path: testfile.rb").extensionName #=> rb`
     public var extensionName: String {
         let expl = url.lastPathComponent.components(separatedBy: ".")
         return expl.last ?? ""
