@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.license        = { :type => "MIT", :file => "LICENSE" }
   s.homepage       = "https://github.com/e-sites/#{s.name}"
   s.source         = { :git => "https://github.com/e-sites/#{s.name}.git", :tag => s.version.to_s }
-  s.source_files   = "Francium/**/*.{h,swift}"
+  s.source_files   = "Sources/Francium/**/*.{h,swift}"
   s.requires_arc   = true
 end
