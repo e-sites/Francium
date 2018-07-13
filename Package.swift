@@ -1,19 +1,22 @@
-// swift-tools-version:4.1
+// swift-tools-version:4.0
 
 import PackageDescription
 
 let package = Package(
     name: "Francium",
     products: [
-    .library(name: "Francium", type: .dynamic, targets: ["Francium"])
-    ],
-    dependencies: [ ],
+        .library(
+            name: "Francium",
+            targets: ["Francium"]),
+        ],
+    dependencies: [],
     targets: [
         .target(
             name: "Francium",
-            dependencies: [ ],
-            path: ".",
-            sources: ["Sources"]
-        )
-    ]
+            dependencies: [],
+            exclude: ["Francium.xcodeproj", "README.md", "Sources/Info.plist"]),
+        .testTarget(
+            name: "FranciumTests",
+            dependencies: ["Francium"]),
+        ]
 )

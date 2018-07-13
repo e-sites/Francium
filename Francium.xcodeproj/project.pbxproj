@@ -6,84 +6,109 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"Francium::FranciumPackageTests::ProductTarget" /* FranciumPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXAggregateTarget "FranciumPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_42 /* PBXTargetDependency */,
+			);
+			name = FranciumPackageTests;
+			productName = FranciumPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		C375A52320F8DBA100B79A89 /* FranciumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375A52220F8DBA100B79A89 /* FranciumTests.swift */; };
-		OBJ_26 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Error.swift */; };
-		OBJ_27 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Dir.swift */; };
-		OBJ_28 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* File.swift */; };
-		OBJ_29 /* IOObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* IOObject.swift */; };
-		OBJ_36 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_27 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Error.swift */; };
+		OBJ_28 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Dir.swift */; };
+		OBJ_29 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* File.swift */; };
+		OBJ_30 /* IOObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* IOObject.swift */; };
+		OBJ_37 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_48 /* FranciumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* FranciumTests.swift */; };
+		OBJ_50 /* Francium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Francium::Francium::Product" /* Francium.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C375A53320F8E10200B79A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Francium::Francium";
+			remoteInfo = Francium;
+		};
+		C375A53420F8E10300B79A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Francium::FranciumTests";
+			remoteInfo = FranciumTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		C375A51A20F8DB6D00B79A89 /* FranciumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FranciumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C375A51E20F8DB6D00B79A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C375A52220F8DBA100B79A89 /* FranciumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FranciumTests.swift; path = Tests/FranciumTests.swift; sourceTree = SOURCE_ROOT; };
-		"Francium::Francium::Product" /* Francium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Francium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_11 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		OBJ_13 /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
-		OBJ_14 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		OBJ_15 /* IOObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOObject.swift; sourceTree = "<group>"; };
+		"Francium::Francium::Product" /* Francium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Francium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Francium::FranciumTests::Product" /* FranciumTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = FranciumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
+		OBJ_13 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_14 /* IOObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOObject.swift; sourceTree = "<group>"; };
+		OBJ_17 /* FranciumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranciumTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C375A51720F8DB6D00B79A89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_30 /* Frameworks */ = {
+		OBJ_31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		OBJ_49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_50 /* Francium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C375A51B20F8DB6D00B79A89 /* FranciumTests */ = {
+		OBJ_11 /* IO */ = {
 			isa = PBXGroup;
 			children = (
-				C375A52220F8DBA100B79A89 /* FranciumTests.swift */,
-				C375A51E20F8DB6D00B79A89 /* Info.plist */,
-			);
-			path = FranciumTests;
-			sourceTree = "<group>";
-		};
-		OBJ_10 /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_11 /* Error.swift */,
-			);
-			path = Errors;
-			sourceTree = "<group>";
-		};
-		OBJ_12 /* IO */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_13 /* Dir.swift */,
-				OBJ_14 /* File.swift */,
-				OBJ_15 /* IOObject.swift */,
+				OBJ_12 /* Dir.swift */,
+				OBJ_13 /* File.swift */,
+				OBJ_14 /* IOObject.swift */,
 			);
 			path = IO;
 			sourceTree = "<group>";
 		};
-		OBJ_16 /* Tests */ = {
+		OBJ_15 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				OBJ_16 /* FranciumTests */,
 			);
 			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* FranciumTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* FranciumTests.swift */,
+			);
+			name = FranciumTests;
+			path = Tests/FranciumTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"Francium::Francium::Product" /* Francium.framework */,
-				C375A51A20F8DB6D00B79A89 /* FranciumTests.xctest */,
+				"Francium::FranciumTests::Product" /* FranciumTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -93,8 +118,7 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_16 /* Tests */,
-				C375A51B20F8DB6D00B79A89 /* FranciumTests */,
+				OBJ_15 /* Tests */,
 				OBJ_19 /* Products */,
 			);
 			name = "";
@@ -111,46 +135,30 @@
 		OBJ_8 /* Francium */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Sources */,
+				OBJ_9 /* Errors */,
+				OBJ_11 /* IO */,
 			);
 			name = Francium;
+			path = Sources/Francium;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_9 /* Sources */ = {
+		OBJ_9 /* Errors */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_10 /* Errors */,
-				OBJ_12 /* IO */,
+				OBJ_10 /* Error.swift */,
 			);
-			path = Sources;
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C375A51920F8DB6D00B79A89 /* FranciumTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C375A51F20F8DB6D00B79A89 /* Build configuration list for PBXNativeTarget "FranciumTests" */;
-			buildPhases = (
-				C375A51620F8DB6D00B79A89 /* Sources */,
-				C375A51720F8DB6D00B79A89 /* Frameworks */,
-				C375A51820F8DB6D00B79A89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FranciumTests;
-			productName = FranciumTests;
-			productReference = C375A51A20F8DB6D00B79A89 /* FranciumTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		"Francium::Francium" /* Francium */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_22 /* Build configuration list for PBXNativeTarget "Francium" */;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "Francium" */;
 			buildPhases = (
-				OBJ_25 /* Sources */,
-				OBJ_30 /* Frameworks */,
+				OBJ_26 /* Sources */,
+				OBJ_31 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,11 +169,28 @@
 			productReference = "Francium::Francium::Product" /* Francium.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		"Francium::FranciumTests" /* FranciumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_44 /* Build configuration list for PBXNativeTarget "FranciumTests" */;
+			buildPhases = (
+				OBJ_47 /* Sources */,
+				OBJ_49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_51 /* PBXTargetDependency */,
+			);
+			name = FranciumTests;
+			productName = FranciumTests;
+			productReference = "Francium::FranciumTests::Product" /* FranciumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		"Francium::SwiftPMPackageDescription" /* FranciumPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_32 /* Build configuration list for PBXNativeTarget "FranciumPackageDescription" */;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXNativeTarget "FranciumPackageDescription" */;
 			buildPhases = (
-				OBJ_35 /* Sources */,
+				OBJ_36 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -181,16 +206,7 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					C375A51920F8DB6D00B79A89 = {
-						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = KH7U9B5DS2;
-						LastSwiftMigration = 0940;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Francium" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -206,174 +222,57 @@
 			targets = (
 				"Francium::Francium" /* Francium */,
 				"Francium::SwiftPMPackageDescription" /* FranciumPackageDescription */,
-				C375A51920F8DB6D00B79A89 /* FranciumTests */,
+				"Francium::FranciumPackageTests::ProductTarget" /* FranciumPackageTests */,
+				"Francium::FranciumTests" /* FranciumTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		C375A51820F8DB6D00B79A89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C375A51620F8DB6D00B79A89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C375A52320F8DBA100B79A89 /* FranciumTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_25 /* Sources */ = {
+		OBJ_26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_26 /* Error.swift in Sources */,
-				OBJ_27 /* Dir.swift in Sources */,
-				OBJ_28 /* File.swift in Sources */,
-				OBJ_29 /* IOObject.swift in Sources */,
+				OBJ_27 /* Error.swift in Sources */,
+				OBJ_28 /* Dir.swift in Sources */,
+				OBJ_29 /* File.swift in Sources */,
+				OBJ_30 /* IOObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_35 /* Sources */ = {
+		OBJ_36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_36 /* Package.swift in Sources */,
+				OBJ_37 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_48 /* FranciumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		OBJ_42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Francium::FranciumTests" /* FranciumTests */;
+			targetProxy = C375A53420F8E10300B79A89 /* PBXContainerItemProxy */;
+		};
+		OBJ_51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Francium::Francium" /* Francium */;
+			targetProxy = C375A53320F8E10200B79A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		C375A52020F8DB6D00B79A89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KH7U9B5DS2;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = FranciumTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.esites.FranciumTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C375A52120F8DB6D00B79A89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = KH7U9B5DS2;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = FranciumTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.esites.FranciumTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		OBJ_23 /* Debug */ = {
+		OBJ_24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -396,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_24 /* Release */ = {
+		OBJ_25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -441,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Debug */ = {
+		OBJ_34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -450,7 +349,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_34 /* Release */ = {
+		OBJ_35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -479,18 +378,59 @@
 			};
 			name = Release;
 		};
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Francium.xcodeproj/FranciumTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = FranciumTests;
+			};
+			name = Debug;
+		};
+		OBJ_46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Francium.xcodeproj/FranciumTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = FranciumTests;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C375A51F20F8DB6D00B79A89 /* Build configuration list for PBXNativeTarget "FranciumTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C375A52020F8DB6D00B79A89 /* Debug */,
-				C375A52120F8DB6D00B79A89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		OBJ_2 /* Build configuration list for PBXProject "Francium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -500,20 +440,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_22 /* Build configuration list for PBXNativeTarget "Francium" */ = {
+		OBJ_23 /* Build configuration list for PBXNativeTarget "Francium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_23 /* Debug */,
-				OBJ_24 /* Release */,
+				OBJ_24 /* Debug */,
+				OBJ_25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_32 /* Build configuration list for PBXNativeTarget "FranciumPackageDescription" */ = {
+		OBJ_33 /* Build configuration list for PBXNativeTarget "FranciumPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_33 /* Debug */,
-				OBJ_34 /* Release */,
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_39 /* Build configuration list for PBXAggregateTarget "FranciumPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_44 /* Build configuration list for PBXNativeTarget "FranciumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_45 /* Debug */,
+				OBJ_46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

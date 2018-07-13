@@ -2,4 +2,5 @@ language: objective-c
 osx_image: xcode9.4
 
 script:
-  - xcodebuild -project Francium.xcodeproj -scheme Francium -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' clean build test
+  - swift buid
+  - swift test
