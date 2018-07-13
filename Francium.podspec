@@ -1,7 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = "Francium"
   s.version        = "1.0"
-  s.platform       = :ios
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
   s.summary        = "A small library to use for your file system."
