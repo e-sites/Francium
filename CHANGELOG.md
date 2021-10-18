@@ -1,5 +1,8 @@
 # Changelog Francium
 
+## v1.1.1 (18-10-2021)
+- Swift 5.5
+
 ## v1.1.0 (05-04-2019)
 - Swift 5.0
 

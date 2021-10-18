@@ -52,8 +52,10 @@ public class Dir: IOObject, CustomStringConvertible {
 
     public func glob(_ pattern: String) -> [File] {
         let pattern = absolutePath + "/" + pattern
+        guard let cPattern = strdup(pattern) else {
+            return []
+        }
         var gt = glob_t()
-        let cPattern = strdup(pattern)
         defer {
             globfree(&gt)
             free(cPattern)
